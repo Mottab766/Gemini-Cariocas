@@ -42,10 +42,7 @@ for (let dado of dados) {
             <a href=${dado.link} target="_blank"><strong>${dado.botaotime}</strong></a>
         </div>
     `;
-
-    }  
-    }
-
+ } }
 // Insere o HTML gerado no elemento section
 section.innerHTML = resultados;
 }
